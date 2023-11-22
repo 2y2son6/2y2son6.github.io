@@ -1,0 +1,78 @@
+body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+}
+
+
+section {
+    padding: 20px; /* Espaciado interno para las secciones */
+    text-align: center;
+    display: block;
+}
+
+
+footer {
+    background-color: rgb(110, 15, 15); /* Fondo gris oscuro para el pie de página */
+    height: 250px;
+    padding: 2em;
+}
+
+.un_regalo p{
+  font-size: 16px;
+  padding: 0 4em;
+}
+
+.un_regalo{
+  padding: 3em 0;
+}
+
+.muchos_black img{
+  width: 9em;
+  border-radius: 15px;
+}
+
+.yellow{
+  color: rgb(251, 255, 0);
+}
+
+header {
+    background-color: rgb(110, 15, 15); /* Fondo gris oscuro para el encabezado */
+    padding: 10px; /* Espaciado interno para el encabezado */
+    text-align: center; /* Centrar el texto en el encabezado */
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos al inicio y al final del contenedor */
+}
+
+.h_icon{
+    height: 4em;
+
+}
+
+@keyframes girar-horizontal {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+.rota {
+animation: girar-horizontal 2s linear infinite;
+width: 17em;
+border-radius: 20px;
+}
+.regalo{
+    width: 13em;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(251, 255, 0);
+}
+a:visited {
+    color: rgb(251, 255, 0); /* Color del texto del enlace visitado */
+  }
